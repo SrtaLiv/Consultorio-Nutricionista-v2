@@ -1,8 +1,6 @@
 import { subtitle, title } from "@/components/primitives";
 import { Link } from "@nextui-org/link";
 import { button as buttonStyles } from "@nextui-org/theme";
-
-import { IconBase } from "react-icons";
 import { siteConfig } from "@/config/site";
 import Image from "next/image";
 

@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import Link from 'next/link';
 import { Logo } from './icons';
 import { FaPhone, FaInstagram } from "react-icons/fa";
