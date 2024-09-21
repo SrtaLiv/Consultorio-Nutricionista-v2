@@ -7,7 +7,7 @@ import Image from "next/image";
 
 export default function SobreMiPage() {
   return (
-    <div className="flex flex-col bg-custom-pink rounded-lg sm:flex-row md:flex-row sm:h-auto sm:mx-16 md:mx-32 mb-12">
+    <div className="flex flex-col bg-gray-100 rounded-lg sm:flex-row md:flex-row sm:h-auto sm:mx-16 md:mx-32 mb-12">
       <section className="flex flex-col items-center justify-center w-full md:w-1/2 h-1/2 md:h-full gap-4 p-4 md:py-10">
         <div className="inline-block max-w-xl text-start justify-start">
           <span className={title()}>Ana Agustina Martinelli&nbsp;</span>
