@@ -58,7 +58,7 @@ const Footer = () => {
 
             <div className="flex-1 flex flex-col">
                 <h2 className="text-xl font-bold mb-2">Redes</h2>
-                <a href="https://www.instagram.com/anaagustina" className="text-blue-400">
+                <a href="https://www.instagram.com/anaagustina"  target="_blank" className="text-blue-400">
                     <Button radius="full" radius="sm" className="bg-pink-500  text-white shadow-lg">
                         <FaInstagram className="mr-2" />
                         Instagram

@@ -15,6 +15,7 @@ module.exports = {
       },
       colors: {
         'custom-footer': '#f2eae9', // Añade tu color hexadecimal aquí
+        'custom-pink': '#FBE0E1',
       },
     },
   },
