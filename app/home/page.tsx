@@ -15,7 +15,7 @@ export default function HomePage() {
           height={999}
           alt="NextUI hero Image"
           src="/AGUS.PNG"
-          className="w-full h-full object-cover"
+          className="rounded-lg w-full h-full object-cover"
         />
       </div>
 
@@ -49,7 +49,7 @@ export default function HomePage() {
             className={buttonStyles({ variant: "bordered", radius: "full" })}
             href='/planes'
           >
-            Planes
+            Sobre mi
           </Link>
         </div>
       </section>

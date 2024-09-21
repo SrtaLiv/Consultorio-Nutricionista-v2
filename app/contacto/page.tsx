@@ -6,7 +6,7 @@ export default function ContactoPage() {
   return (
     <div className="px-16 sm:px-32 mb-12">
       <h1 className={title()}>Contacto</h1>
-      <div className="flex flex-col mt-4 md:flex-row w-full gap-4">
+      <div className="flex flex-col sm:flex-row mt-4 w-full gap-4">
         <form
           action="https://api.web3forms.com/submit"
           method="POST"
@@ -43,7 +43,7 @@ export default function ContactoPage() {
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3190.727493513305!2d-60.32298012341066!3d-36.8968668821963!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959445ced08374b1%3A0x2e2912fe370e432c!2sGral.%20Paz%203150%2C%20B7400%20Olavarr%C3%ADa%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1sen!2sar!4v1726679686875!5m2!1sen!2sar" 
               height={400}
               width={200}
-              className="top-0 left-0 w-full h-300 border-0"
+              className="rounded-lg top-0 left-0 w-full h-300 border-0"
               loading="lazy"
             ></iframe>
         </div>

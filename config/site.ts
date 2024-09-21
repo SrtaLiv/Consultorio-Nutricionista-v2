@@ -9,7 +9,7 @@ export const siteConfig = {
       href: "/",
     },
     {
-      label: "Consultorio",
+      label: "Sobre mi",
       href: "/consultorio",
     },
     {
@@ -23,8 +23,16 @@ export const siteConfig = {
       href: "/inicio",
     },
     {
-      label: "Planes",
-      href: "/planes",
+      label: "Sobre mi",
+      href: "/",
+    },
+    {
+      label: "Contacto",
+      href: "/",
+    },
+    {
+      label: "Whatsapp",
+      href: "/",
     },
   ],
   links: {
