@@ -1,6 +1,6 @@
 # Landing Page para Nutricionista
 ## Screenshot
-![Consultorio]('')
+![Alt text](Screenshot.png)
 
 ## Tecnologias Usadas
 - [Next.js 14](https://nextjs.org/docs/getting-started)
