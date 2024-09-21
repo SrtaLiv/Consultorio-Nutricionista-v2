@@ -42,7 +42,7 @@ export const Navbar = () => {
             </NavbarItem>
           ))}
         </div>
-        <NavbarItem className="hidden md:flex">
+        <NavbarItem className="lg:flex hidden ">
           <Button
             isExternal
             as={Link}
@@ -56,7 +56,7 @@ export const Navbar = () => {
         </NavbarItem>
       </NavbarContent>
 
-      <NavbarContent className="sm:hidden flex !justify-end items-center gap-2">
+      <NavbarContent className="lg:hidden flex !justify-end items-center gap-2">
         {/* <Link isExternal aria-label="Whatsapp" href={siteConfig.links.whatsapp}>
           <IoLogoWhatsapp />
         </Link> */}
