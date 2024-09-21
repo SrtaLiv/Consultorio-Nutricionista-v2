@@ -1,11 +1,8 @@
-# Next.js & NextUI Template
+# Landing Page para Nutricionista
+## Screenshot
+![Consultorio]('')
 
-This is a template for creating applications using Next.js 14 (app directory) and NextUI (v2).
-
-[Try it on CodeSandbox](https://githubbox.com/nextui-org/next-app-template)
-
-## Technologies Used
-
+## Tecnologias Usadas
 - [Next.js 14](https://nextjs.org/docs/getting-started)
 - [NextUI v2](https://nextui.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
@@ -14,42 +11,20 @@ This is a template for creating applications using Next.js 14 (app directory) an
 - [Framer Motion](https://www.framer.com/motion/)
 - [next-themes](https://github.com/pacocoursey/next-themes)
 
-## How to Use
-
-### Use the template with create-next-app
-
-To create a new project based on this template using `create-next-app`, run the following command:
-
+## Instalacion
+### Clonar el repositorio
 ```bash
-npx create-next-app -e https://github.com/nextui-org/next-app-template
+git clone https://github.com/SrtaLiv/Consultorio-Nutricionista-v2.git
 ```
 
-### Install dependencies
-
-You can use one of them `npm`, `yarn`, `pnpm`, `bun`, Example using `npm`:
-
+### Instalar dependencias
+Puedes usar `npm`, `yarn`, `pnpm`, `bun`, ejemplo usando `npm`:
 ```bash
 npm install
 ```
 
-### Run the development server
-
+### Ejecutar el servidor de desarrollo
 ```bash
 npm run dev
 ```
 
-### Setup pnpm (optional)
-
-If you are using `pnpm`, you need to add the following code to your `.npmrc` file:
-
-```bash
-public-hoist-pattern[]=*@nextui-org/*
-```
-
-After modifying the `.npmrc` file, you need to run `pnpm install` again to ensure that the dependencies are installed correctly.
-
-## License
-
-Licensed under the [MIT license](https://github.com/nextui-org/next-app-template/blob/main/LICENSE).
-# Consultorio-Nutricionista-v2
-# Consultorio-Nutricionista-v2
