@@ -22,7 +22,7 @@ export default function SobreMiPage() {
           width={500}  // Ajustar el ancho máximo
           height={500} // Ajustar la altura máxima
           alt="Consultorio"
-          src="/consultorio.PNG"
+          src="/consultorio.png"
           className="max-w-full max-h-[250px] object-cover rounded-lg"
         />
       </div>
