@@ -1,9 +1,11 @@
-import Link from 'next/link';
 import { Logo } from './icons';
 import { FaPhone, FaInstagram } from "react-icons/fa";
 import { CgMail } from "react-icons/cg";
 import { FaMapMarkerAlt } from "react-icons/fa";
 import { Button } from '@nextui-org/button';
+import { siteConfig } from '@/config/site';
+import { Link } from "@nextui-org/link";
+import NextLink from "next/link";
 
 const Footer = () => {
     return (
@@ -11,7 +13,8 @@ const Footer = () => {
             <div className="flex-1 mb-8 flex flex-col">
                 <Logo />
                 <p className='mt-2'>Agustina Martinelli, Licenciada en Nutrición.</p>
-                <Button radius="sm" className="bg-pink-500 w-40 mt-4 text-white shadow-lg">
+                <Button as={Link} radius="sm" href={siteConfig.links.whatsapp}
+                    className="bg-pink-500 w-40 mt-4 text-white shadow-lg">
                     Pedir turno
                 </Button>
             </div>
@@ -45,23 +48,13 @@ const Footer = () => {
                 </ul>
             </div>
 
-            <div className="flex-1 mb-8 md:mb-0">
-                <h2 className="text-xl font-bold mb-2">Links</h2>
-                <ul className="list-none p-0">
-                    <li className='px-px transition-opacity hover:opacity-80'><Link href="/">Inicio</Link></li>
-                    <li className='px-px transition-opacity hover:opacity-80'><Link href="/sobre-mi">Sobre mí</Link></li>
-                    <li className='px-px transition-opacity hover:opacity-80'><Link href="/consultorio">Consultorio</Link></li>
-                </ul>
-            </div>
-
             <div className="flex-1 flex flex-col">
                 <h2 className="text-xl font-bold mb-2">Redes</h2>
-                <a href="https://www.instagram.com/anaagustina"  target="_blank" className="text-blue-400">
-                    <Button radius="full" radius="sm" className="bg-pink-500  text-white shadow-lg">
-                        <FaInstagram className="mr-2" />
-                        Instagram
-                    </Button>
-                </a>
+                <Button as={Link} radius="sm" href={siteConfig.links.instagram}
+                    className="bg-pink-500 w-40 text-white shadow-lg">
+                    <FaInstagram className="mr-2" />
+                    Instagram
+                </Button>
             </div>
         </footer>
     );

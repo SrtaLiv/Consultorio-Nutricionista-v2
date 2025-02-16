@@ -3,6 +3,8 @@ import { Link } from "@nextui-org/link";
 import { button as buttonStyles } from "@nextui-org/theme";
 import { siteConfig } from "@/config/site";
 import Image from "next/image";
+import { FaInstagram } from "react-icons/fa";
+import { Button } from "@nextui-org/button";
 
 export default function HomePage() {
   return (
@@ -35,20 +37,18 @@ export default function HomePage() {
             isExternal
             className={buttonStyles({
               color: "danger",
-              radius: "full",
+              radius: "medium",
               variant: "shadow",
             })}
             href={siteConfig.links.whatsapp}
           >
             Contacto
           </Link>
-          <Link
-            isExternal
-            className={buttonStyles({ variant: "bordered", radius: "full" })}
-            href='/planes'
-          >
-            Sobre mi
-          </Link>
+          <Button as={Link} radius="sm" href={siteConfig.links.instagram}
+            className="bg-pink-500 w-40 rounded-large text-white shadow-lg">
+            <FaInstagram className="mr-2" />
+            Instagram
+          </Button>
         </div>
       </section>
 

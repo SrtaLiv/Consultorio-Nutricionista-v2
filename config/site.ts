@@ -10,7 +10,7 @@ export const siteConfig = {
     },
     {
       label: "Sobre mi",
-      href: "/consultorio",
+      href: "https://www.instagram.com/nutricion.martinelli/",
     },
     {
       label: "Contacto",
@@ -36,7 +36,7 @@ export const siteConfig = {
     },
   ],
   links: {
-    instagram: "https://github.com/nextui-org/nextui",
-    whatsapp: "https://twitter.com/getnextui",
+    instagram: "https://www.instagram.com/nutricion.martinelli/",
+    whatsapp: "https://api.whatsapp.com/send?phone=542284218463",
   },
 };
