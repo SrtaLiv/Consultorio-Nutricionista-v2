@@ -12,7 +12,6 @@ import { Link } from "@nextui-org/link";
 import NextLink from "next/link";
 import clsx from "clsx";
 import { siteConfig } from "@/config/site";
-import { ThemeSwitch } from "@/components/theme-switch";
 import { Logo } from "@/components/icons";
 import { IoLogoWhatsapp } from "react-icons/io";
 

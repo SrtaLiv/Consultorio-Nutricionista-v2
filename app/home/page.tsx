@@ -13,7 +13,7 @@ export default function HomePage() {
         <Image
           width={999}
           height={999}
-          alt="NextUI hero Image"
+          alt="Agustina Martinelli"
           src="/AGUS.PNG"
           className="rounded-lg w-full h-full object-cover"
         />
@@ -33,17 +33,12 @@ export default function HomePage() {
         </div>
 
         <div className="flex gap-3">
-          <Link
-            isExternal
-            className={buttonStyles({
-              color: "danger",
-              radius: "medium",
-              variant: "shadow",
-            })}
+          <Button
+            className="bg-white-100 w-40 rounded-large border-2 border-solid bg-white text-pink-600 shadow-lg"
             href={siteConfig.links.whatsapp}
           >
             Contacto
-          </Link>
+          </Button>
           <Button as={Link} radius="sm" href={siteConfig.links.instagram}
             className="bg-pink-500 w-40 rounded-large text-white shadow-lg">
             <FaInstagram className="mr-2" />
